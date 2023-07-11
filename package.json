@@ -3,13 +3,16 @@
   "name": "waalaxy",
   "scripts": {
     "start:back": "npm run start --workspace back",
-    "start:front": "npm run start --workspace front"
+    "start:front": "npm run start --workspace front",
+    "start": "concurrently \"npm run start:back\" \"npm run start:front\"",
+    "test": "npm run test --workspace back"
   },
   "workspaces": [
     "./apps/*",
     "./packages/*"
   ],
   "devDependencies": {
+    "concurrently": "^8.2.0",
     "prettier": "^2.5.1"
   }
 }
