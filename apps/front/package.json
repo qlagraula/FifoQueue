@@ -7,8 +7,7 @@
     "prepare": "panda codegen",
     "start": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview",
-    "test": "echo 'test front'"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@tanstack/react-query": "^4.29.19",
