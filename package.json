@@ -1,0 +1,15 @@
+{
+  "private": false,
+  "name": "waalaxy",
+  "scripts": {
+    "start:back": "npm run start --workspace back",
+    "start:front": "npm run start --workspace front"
+  },
+  "workspaces": [
+    "./apps/*",
+    "./packages/*"
+  ],
+  "devDependencies": {
+    "prettier": "^2.5.1"
+  }
+}

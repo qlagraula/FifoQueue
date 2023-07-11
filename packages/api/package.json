@@ -1,0 +1,9 @@
+{
+  "name": "api",
+  "main": "index.ts",
+  "scripts": {},
+  "dependencies": {
+    "@zodios/core": "^10.7.1",
+    "zod": "^3.20.2"
+  }
+}

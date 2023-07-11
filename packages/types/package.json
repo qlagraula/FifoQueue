@@ -1,0 +1,8 @@
+{
+  "name": "types",
+  "main": "index.ts",
+  "scripts": {},
+  "dependencies": {
+    "api": "file:../api"
+  }
+}
